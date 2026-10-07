@@ -1,0 +1,46 @@
+export const companyConfig = {
+  name: "SV Technologies Pvt. Ltd.",
+  shortName: "SV Technologies",
+  locationTagline: "Innovate, Build, Serve",
+  heroHeadline: "We build digital products that",
+  heroItalic: "actually work.",
+  description:
+    "SV Technologies is a Nepal-born software studio crafting websites, mobile apps, POS systems, e-commerce platforms, and custom software — from our office in Dillibazar to clients everywhere.",
+  establishedYear: 2021,
+  contact: {
+    email: "info@svtech.com.np",
+    careersEmail: "careers@svtechnologies.com.np",
+    phone: "+977-1-4796321",
+    mobilePhone: "+977-9801234567",
+    address: "Dillibazar, Kathmandu 44600, Bagmati, Nepal",
+    hours: "Mon – Fri · 9:00 – 6:00 | Sat-Sun · Closed",
+    mapQueryUrl: "https://maps.google.com/?q=Dillibazar,+Kathmandu,+Nepal",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Dillibazar%2C%20Kathmandu%2C%20Nepal&t=&z=16&ie=UTF8&iwloc=&output=embed",
+  },
+  social: {
+    facebook: "#",
+    linkedin: "#",
+    instagram: "#",
+    github: "#",
+  },
+  metrics: [
+    { value: "10+", label: "Projects delivered", detail: "Websites, apps and systems delivered for businesses across Nepal and abroad." },
+    { value: "8+", label: "Happy clients", detail: "From coffee brands to travel agencies — long-term partners, not one-off orders." },
+    { value: "1+", label: "Years building", detail: "Continuous execution and software engineering in Kathmandu." },
+    { value: "24/7", label: "Support mindset", detail: "Real humans on call when your business can't afford to wait." },
+  ],
+  team: [
+    { name: "Vijay Pandey", role: "Founder & CEO", initials: "VP", gradient: "from-[#0943c2] to-[#4c4c45]" },
+    { name: "Nikesh Hyanju", role: "Project Manager", initials: "NH", gradient: "from-[#0943c2] to-[#5fd6a8]" },
+    { name: "Sujata Dongol", role: "Team Lead", initials: "SD", gradient: "from-[#0943c2] to-[#63a4cf]" },
+    { name: "Ashok Rai", role: "Software Developer", initials: "AR", gradient: "from-[#0943c2] to-[#d9a05e]" },
+    { name: "Shraddha Dongol", role: "Software Developer", initials: "SD", gradient: "from-[#0943c2] to-[#8f7fd4]" },
+  ],
+  gallery: [
+    { label: "Office", title: "Our Dillibazar workspace", style: "from-[#0943c2] to-[#5fd6a8]" },
+    { label: "Community", title: "Client meetup", style: "from-[#0943c2] to-[#5fd6a1]" },
+    { label: "Learning", title: "Tech workshop", style: "from-[#0943c2] to-[#8f7fd4]" },
+    { label: "Culture", title: "Team celebration", style: "from-[#0943c2] to-[#d96a7a]" },
+    { label: "Outing", title: "Pokhara retreat", style: "from-[#0943c2] to-[#4c4c45]" },
+  ],
+};
